@@ -1,0 +1,66 @@
+/* .backround {
+    width: 2000px; 
+    height: auto; 
+    border: none;
+    background: url(../../shared//assets/fonma.png)  no-repeat 50% 50%;
+} */
+
+.header {
+    margin-top: 100px;
+}
+
+header {
+    height: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logoImg {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; 
+}
+
+.logoImg img {
+    width: 80px;
+    height: auto;
+    margin-right: -20px;
+    
+}
+
+.logoImg h2 {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    margin-right: 70px;
+}
+
+.header-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+}
+
+.header-1 ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.header-1 ul li {
+    margin: 0 20px;
+    padding-top: 2px; 
+    margin-left: 90px;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+
+.header-1 ul li:hover {
+    color: #ffd700; 
+}

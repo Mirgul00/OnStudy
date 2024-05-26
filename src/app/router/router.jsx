@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainPage from "../../pages/MainPage/index";
-import AboutUs from "../../pages/AboutUs/index";
+import AboutUsPage from "../../pages/AboutUsPage/index";
+import ContactPage from "../../pages/ContactPage.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -9,8 +10,13 @@ export const router = createBrowserRouter([
         element: <MainPage />
     },
     {
-        id: 'AboutUs',
+        id: 'AboutUsPage',
         path: "/aboutus",
-        element: < AboutUs/>
+        element: < AboutUsPage/>
+    },
+    {
+        id: 'ContactPage',
+        path: "/contact",
+        element: <ContactPage />
     }
 ]);

@@ -1,0 +1,10 @@
+.m_carousel-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-right: 20%;
+}
+
+.m_carousel .m_slide img {
+    width: 100%;
+    height: auto;
+}
