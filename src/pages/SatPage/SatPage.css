@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.sat{
+    font-family: "Comfortaa", sans-serif;
+    font-size:45px;
+    margin-left:660px;
+    margin-top: -140px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.mainword{
+    font-family: "Comfortaa", sans-serif;
+    font-size:30px;
+    margin-left:160px;
+    padding-top: 40px;
+    color: #fff;
+
+}
+/* ..................................карточка...ряд............................................
+ */
+ 
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%
+    
+    
+ } */
+ *{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+   }  
+    body{
+    background-color: #372A97;
+   }
+   
+   .card0{
+  
+    background-color: #282456;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    transition:transform 0.3s ease;
+    margin-left: 150px;
+    margin-bottom: 20pxpx;
+   
+    width: 550px;
+    height: 380px;
+    
+   }
+   .card0:hover{
+    transform: translateY(-20px);
+   } 
+    .card0 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+     
+  
+   } 
+    .card-content{
+    padding: 170px;
+     margin-top: 20px;  
+   }
+   .h1{
+    font-family: "Comfortaa", sans-serif;
+  font-size: 25px;
+  margin-top: -150px;
+  margin-left: -50px;
+  color: #6660FB;
+
+  color:rgb(255, 254, 254);
+   }
+   .card-content p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    color:rgb(255, 254, 254);
+    margin-bottom: 70 px;
+    width: 500px;
+    margin-left: -130px;
+
+         }
+
+.a-word3{
+            font-family: "Comfortaa", sans-serif;
+            font-size: 25px;
+            margin-top: 30px;
+            margin-left: -120px;
+            color: #7450FB;
+          
+             }
+   .card-button{
+    font-family: "Comfortaa", sans-serif;
+    display: inline-block;
+    background-color: #7450FB;
+    color: #e8e8e8;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 16px;
+    margin-top: 30px;
+    margin-left: -110px;
+    height: 35px;
+    width: 160px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+   
+   } 
+/* ..................2ряд.............................. */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%
+    
+    
+ } 
+ *{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   }  
+   .a-lineword{
+    width: 400px;
+    margin-left:-130px;
+    color: #372A97;
+   }
+   .a-lineword2{
+    width: 400px;
+    margin-left:-130px;
+   }
+   .a-lineword3{
+    width: 400px;
+    margin-left:-130px;
+   }
+    
+   .card1{
+   
+    background-color: #282456;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px rgba(110, 110, 110, 0.3);
+    overflow: hidden;
+    transition:transform 0.3s ease;
+    margin-left: 810px;
+    margin-top: -395px;
+    width: 550px;
+    height: 380px;
+   }
+   .card1:hover{
+    transform: translateY(-20px);
+   } 
+    .card1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+     
+  
+   } 
+    .card-content1{
+    padding: 170px;
+     margin-top: 20px;  
+   }
+   .h2{
+  font-family: "Comfortaa", sans-serif;
+  font-size: 25px;
+  margin-top: -150px;
+  margin-left: -50px;
+  
+
+
+  
+  color:rgb(255, 254, 254);
+   }
+   .card-content1 p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    color:rgb(255, 254, 254);
+    margin-bottom: 70 px;
+    width: 500px;
+    margin-left: -130px;
+
+
+  
+  
+   }
+.a-word2{
+  font-family: "Comfortaa", sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: -120px;
+  color: #7450FB;
+
+   }
+   .card-button1{
+    font-family: "Comfortaa", sans-serif;
+    display: inline-block;
+    background-color: #7450FB;
+    color: #e8e8e8;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 16px;
+    margin-top: 30px;
+    margin-left: -110px;
+    height: 35px;
+    width: 160px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+   } 
+  
+
+/* ..................ряд3.............................. */
+
+
+
+/* //////////////////////////////////иконки////////////////////////////////////////// */
+.icon1 img{
+    margin-left: 1260px;
+    width: 220px;
+}
+.ball1{
+    margin-top: -340px;
+    margin-left: -40px;
+}
+.ball2 img{
+    width: 100px;
+    margin-top: -210px;
+    margin-left: 1140px;
+}
+/* ...................интенсивная подготовка........................ */
+.a-mainword2{
+font-family: "Comfortaa", sans-serif;
+color: #fff;
+margin-top: 110px;
+margin-left: 500px
+
+}
+.a-square {
+    height: 598px;
+    width: 1230px;
+    background-color: #BCB2FF;
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 35px;
+  }
+.a-writing1{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 40px;
+
+font-size:30px;
+margin-left: 220px;
+}
+.a-allword1{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+margin-left: 110px;
+height: -1110px;
+width: -110px;
+    }
+
+.line{
+transform: rotate(270deg);
+width:470px;
+margin-left: 390px;
+margin-top: -250px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 40px;
+}
+.a-allword2{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+    width: -110px;
+    }
+   
+.a-allword3{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+margin-left: 110px;
+height: -1110px;
+width: -110px;
+        }
+.a-allword4{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+ margin-left: 110px;
+height: -1110px;
+width: -110px;
+            } 
+ .a-allword5{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+ padding-top: 11px;
+font-size:25px;
+ margin-left: 110px;
+height: -1110px;
+ width: -110px;
+                }   
+.a-allword6{
+font-family: "Comfortaa", sans-serif;
+ color: #000000;
+ padding-top: 11px;
+font-size:25px;
+margin-left: 110px;
+height: -1110px;
+ width: -110px;
+                    } 
+.a-allword7{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+margin-left: 110px;
+height: -1110px;
+width: -110px;
+                        }        
+.a-allword8{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+margin-left: 110px;
+height: -1110px;
+width: -110px;
+                            }        
+.a-allword9{
+ font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+margin-left: 110px;
+height: -1110px;
+width: -110px;
+                                }        
+.a-allword10{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+font-size:25px;
+ margin-left: 110px;
+height: -1110px;
+ width: -110px;
+                                    }        
+.a-allword11{
+font-family: "Comfortaa", sans-serif;
+color: #000000;
+padding-top: 11px;
+ font-size:25px;
+margin-left: 110px;
+height: -1110px;
+width: -110px;
+                                        }   
+/* 2часть////////////////////////////////////////////////////  
+         */
+.a-2words{ 
+margin-left: 560px;
+
+}
+.a-2writing1{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    margin-top: -295px;
+    font-size:30px;
+    margin-left: 230px;
+    }
+    .a-2allword1{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+    margin-right:-710px;
+    height: 10px;
+    width: -110px;
+        }
+    
+    
+    .a-2allword2{
+        font-family: "Comfortaa", sans-serif;
+        color: #000000;
+        padding-top: 11px;
+        font-size:25px;
+        margin-left: 110px;
+        height: -1110px;
+        width: -110px;
+        }
+       
+    .a-2allword3{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+    width: -110px;
+            }
+    .a-2allword4{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+     margin-left: 110px;
+    height: -1110px;
+    width: -110px;
+                } 
+     .a-2allword5{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+     padding-top: 11px;
+    font-size:25px;
+     margin-left: 110px;
+    height: -1110px;
+     width: -110px;
+                    }   
+    .a-2allword6{
+    font-family: "Comfortaa", sans-serif;
+     color: #000000;
+     padding-top: 11px;
+    font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+     width: -110px;
+                        } 
+    .a-2allword7{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+    width: -110px;
+                            }        
+    .a-2allword8{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+    width: -110px;
+                                }        
+    .a-2allword9{
+     font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+    width: -110px;
+                                    }        
+    .a-2allword10{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+    font-size:25px;
+     margin-left: 110px;
+    height: -1110px;
+     width: -110px;
+                                        }        
+    .a-2allword11{
+    font-family: "Comfortaa", sans-serif;
+    color: #000000;
+    padding-top: 11px;
+     font-size:25px;
+    margin-left: 110px;
+    height: -1110px;
+    width: -110px
+    }
+/* /////////////////////////аккордион/////////////////////////////////////////////////////////////                                        }    */
+   
+.accordion{
+    margin: 100px auto;
+    width: 600px;
+    
+}
+.accordion li{
+    
+    list-style: none;
+    margin: 20px auto;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                 -6px -5px 10px -1px rgba(168, 148, 242, 0.7);
+}
+.accordion li label{
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+label::before{
+    font-family: "Comfortaa", sans-serif;
+    content: "+";
+    margin-right: 10;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+input[type='radio']{
+    font-family: "Comfortaa", sans-serif;
+    display: none;
+}
+.accordion .content{
+    font-family: "Comfortaa", sans-serif;
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s, padding 0.5s;
+}
+.accordion input[type='radio']:checked + label + .content{
+    font-family: "Comfortaa", sans-serif;
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type='radio']:checked + label::before{
+    font-family: "Comfortaa", sans-serif;  
+    content: "-";
+}
+.questions{
+    
+    font-size:40px;
+    font-family: "Comfortaa", sans-serif;
+    color: #ffffff;
+    margin-top: 170px;
+    margin-left: 280px;
+}
+.a-line-questions{
+    width: 650px;
+    margin-left: 271px;
+}
+.ball3{
+    width: 20px;
+    margin-top:-250px;
+    margin-left: 40px;
+}
+.icon2{
+    width: 20px;
+    margin-top:30px;
+    margin-left: 900px;
+}
+.lamp{
+    width: 1100px;
+    margin-top:-650px;
+    margin-left: -190px;
+}
+
+.ball4{
+    width: 20px;
+    margin-top:-265px;
+    margin-left: 1200px;
+}
