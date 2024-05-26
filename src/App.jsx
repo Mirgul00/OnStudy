@@ -1,6 +1,4 @@
-// import IeltsPage from "./pages/IeltsPage/IeltsPage"
 
-// import SatPage from "./pages/SatPage"
 
 function App() {
   return (
@@ -11,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

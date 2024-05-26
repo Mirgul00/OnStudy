@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainPage from "../../pages/MainPage/index";
-import AboutUs from "../../pages/AboutUs/index";
 import SatPage from "../../pages/SatPage";
 import IeltsPage from "../../pages/IeltsPage/IeltsPage";
-
+import AboutUsPage from "../../pages/AboutUsPage/index";
+import ContactPage from "../../pages/ContactPage.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -12,9 +12,9 @@ export const router = createBrowserRouter([
         element: <MainPage />
     },
     {
-        id: 'AboutUs',
+        id: 'AboutUsPage',
         path: "/aboutus",
-        element: < AboutUs/>
+        element: < AboutUsPage/>
     },
     {
         id: 'SatPage',
@@ -26,7 +26,12 @@ export const router = createBrowserRouter([
         id: 'IeltsPage',
         path: "/ielts",
         element: < IeltsPage/>
-
+      
+    },
+    {
+        id: 'ContactPage',
+        path: "/contact",
+        element: <ContactPage />
     }
 
     

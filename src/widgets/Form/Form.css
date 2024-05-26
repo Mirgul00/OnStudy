@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Serif+Display:ital@0;1&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Manjari:wght@100;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Serif+Display:ital@0;1&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Manjari:wght@100;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.m_feedback-form {
+    animation: fadeIn 1s ease-out;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    /* margin-left: 430px; */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .m_feedback-form h2 {
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+  } */
+  
+  .m_feedback-form form label {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .m_feedback-form form input[type="text"],
+  .m_feedback-form form input[type="email"],
+  .m_feedback-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .m_feedback-form form textarea {
+    resize: vertical;
+    height: 300px;
+  }
+  
+  .m_feedback-form form button[type="submit"] {
+    background-color: #8B88B6;
+    font-family: "Comfortaa", sans-serif;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .m_feedback-form form button[type="submit"]:hover {
+    background-color: #8B88B6;
+
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
